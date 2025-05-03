@@ -4,3 +4,5 @@ Vogue Vibes is a fashion shopping platform designed for an easy and stylish shop
 #Using Technologies
 HTML 
 Tailwind CSS (CSS Framework)
+Javascript (Js)....
+
