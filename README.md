@@ -1,2 +1,6 @@
 # Vogue-Vibes-Fashion-Store
-Vogue Vibes is a fashion shopping platform designed for easy and stylish shoping experience
+Vogue Vibes is a fashion shopping platform designed for an easy and stylish shopping experience
+
+#Using Technologies
+HTML 
+Tailwind CSS (CSS Framework)
