@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casual Wear - Vogue Vibes</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">Vogue Vibes</h1>
+      <nav class="flex items-center space-x-6 text-gray-700">
+        <a href="home.html" class="hover:text-blue-600">Home</a>
+        <a href="#" class="text-blue-600 font-semibold">Casual Wear</a>
+        <!-- <a href="#" class="hover:text-blue-600">Contact</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="pt-32 pb-8 bg-gray-100  px-6 max-w-full">
+    <h2 class="text-4xl font-semibold text-gray-800 text-center">Casual Wear</h2>
+    <p class="text-gray-600 mt-2 text-center" >Relaxed fashion for every mood and moment.</p>
+  </section>
+
+  <!-- Category Filters -->
+  <section class="bg-white py-6 shadow-sm">
+    <div class="max-w-7xl px-6">
+      <h3 class="text-xl font-semibold mb-4 text-gray-800 text-left">Shop by Category</h3>
+      <div class="flex flex-wrap gap-4">
+        <button data-filter="All" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">All</button>
+        <button data-filter="Tops" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Tops</button>
+        <button data-filter="Bottoms" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Bottoms</button>
+        <button data-filter="Outerwear" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Outerwear</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="py-16">
+    <div class="max-w-full px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-left">
+      <!-- Product Card 1 -->
+      <div data-category="Tops" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/cotton dress.jpg" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Cotton T-Shirt</h3>
+          <p class="text-gray-600 mt-1">Light and breathable summer tee.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.399</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div data-category="Bottoms" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Denim Short.jpg" alt="Denim Shorts" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Denim Shorts</h3>
+          <p class="text-gray-600 mt-1">Classic summer must-have short set.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.399</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div data-category="Outerwear" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Bomber jacket.jpg" alt="Bomber Jacket" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Bomber Jacket</h3>
+          <p class="text-gray-600 mt-1">Trendy , stylish and lightweight layer.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.699</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div data-category="Tops" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Camp-collar-shirt.jpg" alt="Striped Blouse" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Camp-Collar Shirts</h3>
+          <p class="text-gray-600 mt-1">Casual but stylish shirts for every day.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.399</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 5 -->
+      <div data-category="Bottoms" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Chino Pant.jpg" alt="Chino Pants" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Chino Pants</h3>
+          <p class="text-gray-600 mt-1">Casual but stylish pants for every day.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.499</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 6 -->
+      <div data-category="Outerwear" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/leather jacket.jpg" alt="Leather Jacket" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Leather Jacket</h3>
+          <p class="text-gray-600 mt-1">A classic piece to elevate any look.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.699</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 7 -->
+      <div data-category="Tops" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Graphic Hoodie.jpg" alt="Graphic Hoodie" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Graphic Hoodie</h3>
+          <p class="text-gray-600 mt-1">A comfy hoodie with a cool graphic.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.599</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 8 -->
+      <div data-category="Bottoms" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Jogger Pant.jpg" alt="Jogger Pants" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Jogger Pants</h3>
+          <p class="text-gray-600 mt-1">Perfect for lounging or casual outings.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.599</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 9 -->
+      <div data-category="Tops" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/V-Neck.jpg" alt="V-Neck Sweater" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">V-Neck Sweater</h3>
+          <p class="text-gray-600 mt-1">Comfortable and stylish knit for cooler days.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.399</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 10 -->
+      <div data-category="Outerwear" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Trench coat.jpg" alt="Trench Coat" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Trench Coat</h3>
+          <p class="text-gray-600 mt-1">Stylish and trending long coat for a chic look.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.599</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 11 -->
+      <div data-category="Bottoms" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Cargo pant.jpg" alt="Cargo Pants" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Cargo Pants</h3>
+          <p class="text-gray-600 mt-1">Practical and stylish pants for everyday wear.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.499</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product Card 12 -->
+      <div data-category="Tops" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/plaid shirt.jpg" alt="Plaid Shirt" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Plaid Shirt</h3>
+          <p class="text-gray-600 mt-1">A versatile and stylish shirt for every season.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.399</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-16 mt-10">
+    <div class="max-w-full px-6 text-left">
+      <p class="text-gray-400 text-center">© 2025 Vogue Vibes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Filter Script -->
+  <script>
+    const filterButtons = document.querySelectorAll('[data-filter]');
+    const productCards = document.querySelectorAll('[data-category]');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-filter');
+        productCards.forEach(card => {
+          card.classList.toggle('hidden', category !== 'All' && card.getAttribute('data-category') !== category);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

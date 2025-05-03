@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winter Wear - Vogue Vibes</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">Vogue Vibes</h1>
+      <nav class="flex items-center space-x-6 text-gray-700">
+        <a href="home.html" class="hover:text-blue-600">Home</a>
+        <a href="#" class="text-blue-600 font-semibold">Winter Wear</a>
+        <!-- <a href="#" class="hover:text-blue-600">Contact</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-8 bg-gray-100 px-6 max-w-full">
+    <h2 class="text-4xl font-semibold text-gray-800 text-center">Winter Wear</h2>
+    <p class="text-gray-600 mt-2 text-center">Stylish and cozy outfits for the cold season.</p>
+  </section>
+
+  <!-- Category Filters -->
+  <section class="bg-white py-6 shadow-sm">
+    <div class="max-w-7xl px-6">
+      <h3 class="text-xl font-semibold mb-4 text-gray-800 text-left">Shop by Category</h3>
+      <div class="flex flex-wrap gap-4">
+        <button data-filter="All" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">All</button>
+        <button data-filter="Coats" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Coats</button>
+        <button data-filter="Jackets" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Jackets</button>
+        <button data-filter="Sweaters" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">Sweaters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="py-16">
+    <div class="max-w-full mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <!-- Product 1 -->
+      <div data-category="Coats" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Cozy wool coat.jpg" alt="Winter Coat" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Cozy Wool Winter Coat</h3>
+          <p class="text-gray-600 mt-1">Stay warm in style with this wool blend coat.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.2499</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div data-category="Jackets" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Insulated Puffer Jacket.jpg"alt="Puffer Jacket" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Insulated Puffer Jacket</h3>
+          <p class="text-gray-600 mt-1">Lightweight but warm, perfect for winter adventures.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.1999</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div data-category="Sweaters" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Chunky Sweater.jpg" alt="Knitted Sweater" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Chunky Knitted Sweater</h3>
+          <p class="text-gray-600 mt-1">Soft and cozy, perfect for layering in the cold.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.899</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div data-category="Coats" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Classic winter coat.jpg" alt="Classic Winter Coat" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Classic Winter Coat</h3>
+          <p class="text-gray-600 mt-1">Elegant and warm for the colder months.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.2799</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div data-category="Jackets" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/classic leather jacket.jpg" alt="Leather Jacket" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Classic Leather Jacket</h3>
+          <p class="text-gray-600 mt-1">Stylish and warm leather jacket for winter.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.3499</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div data-category="Sweaters" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Fleeced sweater.jpg" alt="Fleece Sweater" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Fleece Lined Sweater</h3>
+          <p class="text-gray-600 mt-1">Warm and comfy, perfect for winter layering.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.799</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div data-category="Coats" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/Trench coat.jpg" alt="Trench Coat" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Trench Winter Coat</h3>
+          <p class="text-gray-600 mt-1">Chic and warm, ideal for winter fashionistas.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.2499</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div data-category="Jackets" class="bg-white rounded shadow hover:scale-105 overflow-hidden">
+        <img src="/photos/winter.jpg" alt="Faux Fur Jacket" class="w-full h-fit object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800">Faux Fur Lined Jacket</h3>
+          <p class="text-gray-600 mt-1">Luxury warmth with a fashionable faux fur lining.</p>
+          <div class="mt-2 text-gray-900 font-bold">Rs.2299</div>
+          <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12 mt-10">
+    <div class="text-center max-w-7xl mx-auto px-6">
+      <p class="text-gray-400">© 2025 Vogue Vibes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Filter Script -->
+  <script>
+    const filterButtons = document.querySelectorAll('[data-filter]');
+    const productCards = document.querySelectorAll('[data-category]');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-filter');
+        productCards.forEach(card => {
+          card.classList.toggle('hidden', category !== 'All' && card.getAttribute('data-category') !== category);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
